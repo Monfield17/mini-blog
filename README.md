@@ -23,29 +23,29 @@ It demonstrates user authentication, CRUD operations, working with MySQLi, and b
 
 ## Project Structure
 
+```
 mini-blog/
-│
-├── public/
-│   ├── login.php
-│   ├── register.php
-│   ├── dashboard.php
-│   ├── posts.php
-│   ├── post_create.php
-│   ├── post_edit.php
-│   ├── post_delete.php
-│   └── assets/
-│       └── style.css
-│
-├── src/
-│   ├── Database.php
-│   ├── User.php
-│   └── Post.php
-│
-├── config/
-│   └── config.php   (NOT included in GitHub)
-│
-└── README.md
+  public/
+    login.php
+    register.php
+    dashboard.php
+    posts.php
+    post_create.php
+    post_edit.php
+    post_delete.php
+    assets/
+      style.css
 
+  src/
+    Database.php
+    User.php
+    Post.php
+
+  config/
+    config.php   (NOT included in GitHub)
+
+  README.md
+```
 
 ## How to Run the Project
 
@@ -59,7 +59,8 @@ mini-blog/
 $host = "localhost";
 $user = "root";
 $password = "";
-$dbname = "mini-blog"; ```
+$dbname = "mini-blog";
+```
 
 5. Start Apache + MySQL (XAMPP)
 
