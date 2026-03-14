@@ -69,15 +69,14 @@ $dbname = "mini-blog";
 http://localhost/mini-blog/public/login.php
 
 Future Improvements
-User roles (admin / user)
 
-Comments under posts
+- User roles (admin / user)
 
-Image upload for posts
+- Comments under posts
 
-Pagination
+- Image upload for posts
 
-CSRF protection
+- Pagination
 
-Password reset
+- CSRF protection, Password reset
 
